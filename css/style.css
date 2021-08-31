@@ -1,0 +1,122 @@
+/* CABEÇALHO */
+.container-header{
+    width: 100vw;
+    max-width: 414px;
+    height: 12.5rem;
+    margin: auto;
+    padding-top: 48px;
+    background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+.container-navigation{
+    width: 18rem;
+    height: 6.5rem;
+    margin: auto;
+    position: relative;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.navigation li{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    color: var(--cor-principal03);
+}
+
+#search-field{
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding-left: 2.37rem;
+}
+
+#search-field::placeholder{
+    color: var(--cor-principal03);
+    opacity: 0.5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: .87rem;
+    line-height: 1rem;
+}
+
+.imagem-search{
+    background-image: url(../assets/ant-design_search-outlined.svg);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 75px;
+    left: 7px;
+}
+
+/* CONTEUDO */
+.container-main{
+    width: 100vw;
+    height: auto;
+    max-width: 18.37rem;
+    margin: 3.15rem auto;
+}
+
+.container-article{
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    margin-bottom: 1.56rem;
+    background-color: var(--cor-principal03);
+    border-radius: 5px;
+}
+
+.header-article{
+    width: 100%;
+    height: 1.37rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-time{
+    margin-left: 1rem;
+    font-weight: 400;
+    font-size: .87rem;
+    line-height: 1.09rem;
+    color: var(--cor-descricao);
+}
+
+.like-img{
+    background-image: url(../assets/codicon_heart.svg);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
+}
+
+.article-conteudo{
+    height: auto;
+    margin-top: 1.68rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+}
+
+.article-conteudo h2{
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 1.40rem;
+}
+
+.article-conteudo p{
+    font-weight: 400;
+    font-size: .87rem;
+    line-height: 1.40rem;
+    color: var(--cor-descricao);
+    padding-top: .56rem;
+    padding-bottom: .97rem;
+}

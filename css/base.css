@@ -1,0 +1,40 @@
+:root{
+/* Variáveis de cores */
+    --cor-principal01:#574AE8;
+    --cor-principal02:#F3F5F7;
+    --cor-principal03:#FFFFFF;
+    --cor-titulo:#313131;
+    --cor-descricao:#B6B6B6; 
+}
+
+*{
+/* Reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Classe para esconder label */
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+
+
+
+
