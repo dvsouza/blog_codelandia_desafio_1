@@ -41,7 +41,7 @@
 
 @media screen and (min-width:1024px){
     .container-header{
-        max-width: 1024px;
+        max-width: 100%;
     }
 
     .container-navigation{
@@ -81,14 +81,14 @@
 
 @media screen and (min-width:1440px){
     .container-header{
-        max-width: 1440px;
+        max-width: 100%;
     }
 
 }
 
 @media screen and (min-width:2560px){
     .container-header{
-        max-width: 2560px;
+        max-width: 100%;
     }
 
 }
